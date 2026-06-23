@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS plataformas;
 
 CREATE TABLE plataformas (
-    id              BIGINT          NOT NULL, AUTO_INCREMENT,
+    id              BIGINT          NOT NULL AUTO_INCREMENT,
     nombre          VARCHAR(100)    NOT NULL,
     manufacturador  VARCHAR(100),
 
